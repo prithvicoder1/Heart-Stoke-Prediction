@@ -62,5 +62,9 @@ Heart Disease/
 | **Oldpeak** | ST depression induced by exercise |
 | **ST Slope** | Slope of the peak exercise ST segment |
 
+
+
+![image alt](https://github.com/prithvicoder1/Heart-Stoke-Prediction/blob/78b454e272cbcb1bf4d728116d61cf40127ea718/Screenshot.png)
+
 ## ⚠️ Disclaimer
 This tool is for **educational and preliminary assessment purposes only**. It is not a substitute for professional medical advice, diagnosis, or treatment. Always consult with a qualified healthcare provider for any medical concerns.
