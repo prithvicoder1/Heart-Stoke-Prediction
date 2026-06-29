@@ -1,4 +1,4 @@
-# ❤️ Heart Disease Prediction System
+# ❤️HeartVision-AI
 
 A professional AI-powered application designed to assess the risk of heart disease based on patient vitals and medical history. This tool uses machine learning to provide preliminary risk evaluations to assist medical professionals and individuals.
 
