@@ -1,66 +1,211 @@
-# ❤️HeartVision-AI
+# ❤️ HeartVision-AI
 
-A professional AI-powered application designed to assess the risk of heart disease based on patient vitals and medical history. This tool uses machine learning to provide preliminary risk evaluations to assist medical professionals and individuals.
+<p align="center">
 
-## 🚀 Features
-- **User-Friendly Interface:** Clean, professional medical-themed UI built with Streamlit.
-- **Real-time Analysis:** Instant risk prediction based on input parameters.
-- **Comprehensive Inputs:** Considers age, chest pain type, blood pressure, cholesterol, ECG results, and more.
-- **Visual Feedback:** Clear, color-coded results (Safe/Elevated Risk) for easy interpretation.
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,100:06b6d4&height=220&section=header&text=HeartVision%20AI&fontSize=46&fontColor=ffffff&animation=fadeIn"/>
 
-## 🛠️ Installation
+</p>
 
-1. **Clone the repository:**
-   ```bash
-   git clone <repository-url>
-   cd "Heart Disease"
-   ```
+<p align="center">
 
-2. **Install dependencies:**
-   It is recommended to use a virtual environment.
-   ```bash
-   pip install -r requirements.txt
-   ```
+AI-Powered Heart Disease Risk Prediction using Machine Learning, Streamlit & Docker
 
-## 🏃‍♂️ Usage
+</p>
 
-Run the Streamlit application:
+<p align="center">
 
-```bash
-streamlit run frontend/ui.py
-```
+<a href="https://heartvision-ai.onrender.com/"><img src="https://img.shields.io/badge/Live%20Demo-HeartVision%20AI-2563eb?style=for-the-badge"></a>
 
-The application will open in your default web browser at `http://localhost:8501`.
+<a href="https://github.com/prithvicoder1/HeartVision-AI"><img src="https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github"></a>
+
+</p>
+
+---
+
+## ✨ Overview
+
+HeartVision-AI is a machine learning web application that predicts the likelihood of heart disease from clinical parameters. It provides a clean Streamlit interface, real-time predictions, Docker support, and deployment on Render.
+
+### 🚀 Features
+
+- ❤️ AI-powered heart disease prediction
+
+- 📊 Real-time inference using a trained KNN model
+
+- 🖥️ Modern Streamlit interface
+
+- 🧠 Preprocessing with saved scaler & feature columns
+
+- 🐳 Docker support
+
+- ☁️ Render deployment ready
+
+- 📱 Responsive UI
+
+---
+
+## 🌐 Live Demo
+
+**https://heartvision-ai.onrender.com/**
+
+## 📦 Repository
+
+**https://github.com/prithvicoder1/HeartVision-AI**
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technology |
+
+|-----------|------------|
+
+| Language | Python |
+
+| ML | Scikit-learn |
+
+| UI | Streamlit |
+
+| Data | Pandas, NumPy |
+
+| Model Storage | Joblib |
+
+| Deployment | Render |
+
+| Containerization | Docker |
+
+---
 
 ## 📂 Project Structure
 
-```
-Heart Disease/
-├── frontend/
-│   └── ui.py               # Main application interface
-├── heart_columns.pkl       # Feature columns for the model
-├── heart_scaler.pkl        # Data scaler
-├── knn_heart_model.pkl     # Trained KNN model
-├── requirements.txt        # Python dependencies
-├── README.md               # Project documentation
-└── ...
+```text
+
+HeartVision-AI/
+
+├── app.py
+
+├── Dockerfile
+
+├── requirements.txt
+
+├── Procfile
+
+├── runtime.txt
+
+├── README.md
+
+├── knn_heart_model.pkl
+
+├── heart_scaler.pkl
+
+├── heart_columns.pkl
+
+└── frontend/
+
 ```
 
-## 📋 Input Parameters
+---
 
-| Parameter | Description |
-|-----------|-------------|
-| **Age** | Patient's age in years |
-| **Sex** | Biological sex (M/F) |
-| **Chest Pain Type** | ATA, NAP, TA, or ASY |
-| **Resting BP** | Resting blood pressure (mm Hg) |
-| **Cholesterol** | Serum cholesterol (mg/dL) |
-| **Fasting BS** | Fasting blood sugar > 120 mg/dL (Yes/No) |
-| **Resting ECG** | Resting electrocardiogram results |
-| **Max HR** | Maximum heart rate achieved |
-| **Exercise Angina** | Exercise-induced angina (Yes/No) |
-| **Oldpeak** | ST depression induced by exercise |
-| **ST Slope** | Slope of the peak exercise ST segment |
+## ⚙️ Installation
+
+```bash
+
+git clone https://github.com/prithvicoder1/HeartVision-AI.git
+
+cd HeartVision-AI
+
+python -m venv .venv
+
+source .venv/bin/activate
+
+pip install -r requirements.txt
+
+streamlit run app.py
+
+```
+
+---
+
+## 🐳 Docker
+
+```bash
+
+docker build -t heartvision-ai .
+
+docker run -p 8501:8501 heartvision-ai
+
+```
+
+---
+
+## 🧠 Input Features
+
+- Age
+
+- Sex
+
+- Chest Pain Type
+
+- Resting Blood Pressure
+
+- Cholesterol
+
+- Fasting Blood Sugar
+
+- Resting ECG
+
+- Maximum Heart Rate
+
+- Exercise Angina
+
+- Oldpeak
+
+- ST Slope
+
+---
+
+## 📈 Prediction Output
+
+- ✅ Low Risk
+
+- ⚠️ High Risk
+
+---
+
+## 🚀 Future Improvements
+
+- Probability score
+
+- Explainable AI (SHAP)
+
+- Multiple ML model comparison
+
+- Authentication
+
+- Patient report export (PDF)
+
+---
+
+## 🤝 Contributing
+
+Pull requests and suggestions are welcome.
+
+---
 
 ## ⚠️ Disclaimer
-This tool is for **educational and preliminary assessment purposes only**. It is not a substitute for professional medical advice, diagnosis, or treatment. Always consult with a qualified healthcare provider for any medical concerns.
+
+This project is for educational purposes only and is not a substitute for professional medical advice.
+
+---
+
+<p align="center">
+
+Made with ❤️ by <b>Prithvi Vijay</b>
+
+</p>
+
+<p align="center">
+
+⭐ If you like this project, consider starring the repository!
+
+</p>
